@@ -5,7 +5,7 @@ while i == "yes" :
  if x == "y":
      os.system('shutdown -s')
  elif x == "n":
-     time.sleep(1)
+     time.sleep(30)
      i = "yes"
  else :
      i = "no"
