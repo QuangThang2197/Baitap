@@ -11,7 +11,7 @@ rects2 = ax.bar(ind + width/2, btvn, width, yerr=btvn_std,
                 label='BTVN',color='#d63031')
 ax.set_xticks(ind)
 ax.set_xticklabels(('Tháng 1', 'Tháng 2', 'Tháng 3', 'Tháng 4', 'Tháng 5'))
-plt.title('''   Biểu đồ thể hiện số bài tập
+plt.title('''   Biểu đồ thể hiện số 
    bài tập lập trình ''')
 plt.xlabel('Thời gian trải qua')
 plt.ylabel('Số bài tập ')
