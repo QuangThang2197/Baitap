@@ -1,6 +1,6 @@
 import os
-list1=list()
-list2=list()
+list1= []
+list2= []
 for (root,dirs,files) in os.walk('C:'):  # os.walk de truy cap o dia minh chon
     print("thu muc o dia C:",root)  # root la thu muc can chon
     print("thu muc con",dirs)  # dirs la cac thu muc con
