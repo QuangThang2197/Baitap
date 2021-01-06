@@ -1,4 +1,4 @@
-import os,string,random,math
+import os,string,random
 
 num = 1000
 limit = int(input("NHAP GIOI HAN DU LIEU 1-1024MB: "))
