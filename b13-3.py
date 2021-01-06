@@ -3,7 +3,7 @@ import os,string,random,math
 num = 1000
 limit = int(input("NHAP GIOI HAN DU LIEU 1-1024MB: "))
 if limit >= 1 and limit <= 1024:
- for i in range(int(limit * 1024 / capa)):
+ for i in range(int(limit * 1024 / num)):
     file = open('file' + str(i + 1) + '.txt', 'w')
     file.write(random.choice(string.ascii_letters))
  if int(limit* 1024 % num) >0 :
