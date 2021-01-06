@@ -7,4 +7,8 @@ os.mkdir(a)
 d= c+a
 os.chdir(d)
 f= open(b,"w")
+f.writelines("Welcome")
+f.close()
+
+
 
